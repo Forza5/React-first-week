@@ -1,0 +1,44 @@
+.list {
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 2px solid #a55674;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .list > div.text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .list > div h3 {
+    font-size: 25px;
+  }
+  
+  .list > div.btn {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+  }
+  
+  .list > div.btn button {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    background: #a55674;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+  }

@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+  }
+  
+  header > h1 {
+    font-size: 15px;
+    font-weight: normal;
+  }
