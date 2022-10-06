@@ -12,7 +12,7 @@ const List = (props) => {
       const checkedList = (isDone, index) =>{
         const filterArray = props.value.map((values, arrayIndex) => {
            if(arrayIndex === index){
-            return isDone? {...values, isDone: false} :{...values, isDone: true}
+            return isDone ? {...values, isDone: false} :{...values, isDone: true}
            }else return values
         });  
         props.setValue(filterArray);

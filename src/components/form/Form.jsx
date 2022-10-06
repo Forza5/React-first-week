@@ -12,9 +12,6 @@ const Form = (props) => {
       isDone: false,
     }]);
 
-    titleInput = "";
-    contentInput = "";
-
   }
 
   return(

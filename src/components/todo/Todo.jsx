@@ -9,7 +9,7 @@ const Todo = (props) => {
             </div>
             <div className='btn'>
                 <button onClick={() => {props.deleteList(props.i)}}>삭제하기</button>
-                <button onClick={() => {props.checkedList(props.lists.isDone, props.i)}}>완료하기</button>
+                <button onClick={() => {props.checkedList(props.lists.isDone, props.i)}}>{props.lists.isDone ? "취소하기" : "완료하기"}</button>
             </div>
         </div>
     )
